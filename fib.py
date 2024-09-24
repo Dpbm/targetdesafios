@@ -1,9 +1,7 @@
-memo = {}
+memo = {0:0, 1:1}
 def fib(i):
-    if(i <= 0):
+    if(i < 0):
         return 0
-    elif(i == 1):
-        return 1
     elif(memo.get(i) != None):
         return memo[i]
 
